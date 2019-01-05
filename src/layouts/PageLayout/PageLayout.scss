@@ -1,0 +1,26 @@
+header{
+  background: #3F51B5;
+  .nav-link{
+    color: #FFF !important;
+  }
+  .active{
+    text-decoration: underline;
+  }
+  
+}
+.navbar-collapse{
+  flex-basis: 100%;
+
+  @media(min-width: 992px)
+  {
+    flex-basis: auto;
+  }
+}
+.page-layout__viewport {
+  padding-top: 4rem;
+}
+
+.page-layout__nav-item--active {
+  font-weight: bold;
+  text-decoration: underline;
+}
